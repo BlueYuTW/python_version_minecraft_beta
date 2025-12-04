@@ -9,3 +9,5 @@
 
 
 目前為Beta2.0
+
+因為材質包為minecraft公司下載的，所以github版本沒有放minecraft材質包
