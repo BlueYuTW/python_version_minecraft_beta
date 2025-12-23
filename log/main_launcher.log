@@ -1,45 +1,42 @@
-2025-12-22 00:33:53,261 - INFO - main._setup_ui_elements:348 - Setting up Minecraft GIF with forced delay: 80ms
-2025-12-22 00:33:53,261 - DEBUG - main._load_gif:95 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Attempting to load frames. Forced delay: 80ms
-2025-12-22 00:33:53,261 - DEBUG - main._load_gif:100 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Loading with imageio.
-2025-12-22 00:33:54,277 - INFO - main._load_gif:135 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): All frames used forced delay of 80ms.
-2025-12-22 00:33:54,277 - INFO - main._load_gif:177 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Loaded 22 frames. Delays used (forced, first 5): [80, 80, 80, 80, 80]. Adjusted Delays (first 5): [80, 80, 80, 80, 80]. Total duration (based on delays list): 1760ms. Total duration for anim (adj): 1760ms.
-2025-12-22 00:33:54,409 - INFO - main._show_minecraft_background:394 - Showing Minecraft background.
-2025-12-22 00:33:54,410 - INFO - main._show_minecraft_background:398 - Showing Minecraft background animation (looping). Expected loop duration: 1760ms
-2025-12-22 00:33:54,411 - DEBUG - main.start_animation:273 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Starting animation. Loop: True. First adjusted delay: 80
-2025-12-22 00:33:56,676 - DEBUG - main._animate:230 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Reached end of sequence (idx=22, len=22).
-2025-12-22 00:33:56,677 - DEBUG - main._animate:237 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Looping back to frame 0.
-2025-12-22 00:33:56,854 - INFO - main.start_game_thread:430 - GameLauncher: Attempting to start game in 'survival' mode.
-2025-12-22 00:33:56,859 - INFO - main._start_game_logic:472 - Player data for mode 'survival' saved to C:\Minecraft\.minecraft\playerdata\player.json
-2025-12-22 00:33:56,876 - INFO - main._start_game_logic:482 - Using Python alias 'python' (resolved to: C:\Python313\python.EXE). Version: Python 3.13.7
-2025-12-22 00:33:56,877 - INFO - main._start_game_logic:493 - Checking for pyglet using: 'C:\Python313\python.EXE' with timeout 10s...
-2025-12-22 00:33:56,927 - INFO - main._start_game_logic:511 - Pyglet check successful for 'C:\Python313\python.EXE'. Output: Pyglet 1.5.31 imported successfully
-2025-12-22 00:33:56,928 - INFO - main._start_game_logic:541 - Running game: C:\Python313\python.EXE C:\Minecraft\.minecraft\game.py --mode=survival in CWD: C:\Minecraft\.minecraft
-2025-12-22 00:33:59,503 - DEBUG - main._animate:230 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Reached end of sequence (idx=22, len=22).
-2025-12-22 00:33:59,503 - DEBUG - main._animate:237 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Looping back to frame 0.
-2025-12-22 00:34:02,355 - DEBUG - main._animate:230 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Reached end of sequence (idx=22, len=22).
-2025-12-22 00:34:02,355 - DEBUG - main._animate:237 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Looping back to frame 0.
-2025-12-22 00:34:05,054 - INFO - main._start_game_logic:545 - Game process finished. Return code: 0
-2025-12-22 00:34:05,055 - INFO - main._start_game_logic:546 - Game stdout:
-2025-12-22 00:33:57,212 - INFO - game.run_game:2606 - Window created with Anti-Aliasing (MSAA x4).
-2025-12-22 00:33:57,238 - INFO - game.__init__:47 - �C��������l�ƶ}�l...
-2025-12-22 00:33:57,248 - INFO - game.__init__:76 - KeyStateHandler initialized and pushed successfully in Game.__init__.
-2025-12-22 00:33:57,249 - INFO - game.load_recipes:2267 - Loaded 4 recipes.
-2025-12-22 00:33:57,430 - INFO - game.__init__:205 - Player data loaded from C:\Minecraft\.minecraft\playerdata\player.json.
-2025-12-22 00:33:57,677 - INFO - game.load_world:928 - World data loaded. 208995 blocks, 90 chunks.
-2025-12-22 00:33:57,702 - INFO - game.load_keybindings:352 - �q C:\Minecraft\.minecraft\settings\keybindings.json ���J����]�w�C
-2025-12-22 00:33:57,703 - INFO - game.__init__:258 - �C��������l�Ƨ����C
-2025-12-22 00:33:57,703 - INFO - game.run_game:2705 - �}�l Pyglet ���ε{���D�`��...
-2025-12-22 00:33:59,688 - INFO - game.on_key_press:1373 - Inventory key pressed. show_inventory: True, show_crafting_table_ui: False
-2025-12-22 00:34:00,053 - INFO - game.on_key_press:1373 - Inventory key pressed. show_inventory: False, show_crafting_table_ui: False
-2025-12-22 00:34:00,956 - INFO - game.update:1586 - Broke grass_block, added to inventory.
-2025-12-22 00:34:04,670 - INFO - game.save_game:962 - Game saved. World (208995 blocks) to C:\Minecraft\.minecraft\worlds\world.json. Player data to C:\Minecraft\.minecraft\playerdata\player.json
-2025-12-22 00:34:04,674 - INFO - game.on_mouse_press:2179 - �u�x�s�ðh�X�v���s�Q���U�A�ǳƵ��� Pyglet ���ε{���C
-2025-12-22 00:34:04,675 - INFO - game.run_game:2707 - Pyglet ���ε{���D�`���w�����C
-2025-12-22 00:34:05,055 - INFO - main._start_game_logic:561 - Game logic thread completing.
-2025-12-22 00:34:05,115 - INFO - main._start_game_logic:565 - Launcher UI restoration scheduled/completed.
-2025-12-22 00:34:05,305 - DEBUG - main._animate:230 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Reached end of sequence (idx=22, len=22).
-2025-12-22 00:34:05,305 - DEBUG - main._animate:237 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Looping back to frame 0.
-2025-12-22 00:34:06,054 - INFO - main.on_quit:378 - GameLauncher: Quit button pressed.
-2025-12-22 00:34:06,054 - INFO - main.unload:299 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Unloading frames and stopping animation.
-2025-12-22 00:34:06,055 - DEBUG - main.stop_animation:285 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): stop_animation called (public).
-2025-12-22 00:34:06,065 - INFO - main.<module>:590 - Application mainloop finished.
+2025-12-23 16:07:07,937 - INFO - main._setup_ui_elements:348 - Setting up Minecraft GIF with forced delay: 80ms
+2025-12-23 16:07:07,937 - DEBUG - main._load_gif:95 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Attempting to load frames. Forced delay: 80ms
+2025-12-23 16:07:07,937 - DEBUG - main._load_gif:100 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Loading with imageio.
+2025-12-23 16:07:08,709 - INFO - main._load_gif:135 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): All frames used forced delay of 80ms.
+2025-12-23 16:07:08,709 - INFO - main._load_gif:177 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Loaded 22 frames. Delays used (forced, first 5): [80, 80, 80, 80, 80]. Adjusted Delays (first 5): [80, 80, 80, 80, 80]. Total duration (based on delays list): 1760ms. Total duration for anim (adj): 1760ms.
+2025-12-23 16:07:08,829 - INFO - main._show_minecraft_background:394 - Showing Minecraft background.
+2025-12-23 16:07:08,830 - INFO - main._show_minecraft_background:398 - Showing Minecraft background animation (looping). Expected loop duration: 1760ms
+2025-12-23 16:07:08,830 - DEBUG - main.start_animation:273 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Starting animation. Loop: True. First adjusted delay: 80
+2025-12-23 16:07:10,797 - DEBUG - main._animate:230 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Reached end of sequence (idx=22, len=22).
+2025-12-23 16:07:10,797 - DEBUG - main._animate:237 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Looping back to frame 0.
+2025-12-23 16:07:11,273 - INFO - main.start_game_thread:430 - GameLauncher: Attempting to start game in 'survival' mode.
+2025-12-23 16:07:11,276 - INFO - main._start_game_logic:472 - Player data for mode 'survival' saved to C:\Minecraft\.minecraft\playerdata\player.json
+2025-12-23 16:07:11,421 - INFO - main._start_game_logic:482 - Using Python alias 'python' (resolved to: C:\Python313\python.EXE). Version: Python 3.13.7
+2025-12-23 16:07:11,421 - INFO - main._start_game_logic:493 - Checking for pyglet using: 'C:\Python313\python.EXE' with timeout 10s...
+2025-12-23 16:07:11,509 - INFO - main._start_game_logic:511 - Pyglet check successful for 'C:\Python313\python.EXE'. Output: Pyglet 1.5.31 imported successfully
+2025-12-23 16:07:11,510 - INFO - main._start_game_logic:541 - Running game: C:\Python313\python.EXE C:\Minecraft\.minecraft\game.py --mode=survival in CWD: C:\Minecraft\.minecraft
+2025-12-23 16:07:13,156 - DEBUG - main._animate:230 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Reached end of sequence (idx=22, len=22).
+2025-12-23 16:07:13,157 - DEBUG - main._animate:237 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Looping back to frame 0.
+2025-12-23 16:07:15,603 - DEBUG - main._animate:230 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Reached end of sequence (idx=22, len=22).
+2025-12-23 16:07:15,604 - DEBUG - main._animate:237 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Looping back to frame 0.
+2025-12-23 16:07:16,711 - INFO - main._start_game_logic:545 - Game process finished. Return code: 0
+2025-12-23 16:07:16,711 - INFO - main._start_game_logic:546 - Game stdout:
+2025-12-23 16:07:11,765 - INFO - game.run_game:2606 - Window created with Anti-Aliasing (MSAA x4).
+2025-12-23 16:07:11,783 - INFO - game.__init__:47 - �C��������l�ƶ}�l...
+2025-12-23 16:07:11,792 - INFO - game.__init__:76 - KeyStateHandler initialized and pushed successfully in Game.__init__.
+2025-12-23 16:07:11,792 - INFO - game.load_recipes:2267 - Loaded 4 recipes.
+2025-12-23 16:07:11,929 - INFO - game.__init__:205 - Player data loaded from C:\Minecraft\.minecraft\playerdata\player.json.
+2025-12-23 16:07:12,149 - INFO - game.load_world:928 - World data loaded. 229884 blocks, 99 chunks.
+2025-12-23 16:07:12,169 - INFO - game.load_keybindings:352 - �q C:\Minecraft\.minecraft\settings\keybindings.json ���J����]�w�C
+2025-12-23 16:07:12,169 - INFO - game.__init__:258 - �C��������l�Ƨ����C
+2025-12-23 16:07:12,169 - INFO - game.run_game:2705 - �}�l Pyglet ���ε{���D�`��...
+2025-12-23 16:07:14,988 - INFO - game.on_key_press:1373 - Inventory key pressed. show_inventory: True, show_crafting_table_ui: False
+2025-12-23 16:07:15,355 - INFO - game.on_key_press:1373 - Inventory key pressed. show_inventory: False, show_crafting_table_ui: False
+2025-12-23 16:07:16,525 - INFO - game.save_game:962 - Game saved. World (229884 blocks) to C:\Minecraft\.minecraft\worlds\world.json. Player data to C:\Minecraft\.minecraft\playerdata\player.json
+2025-12-23 16:07:16,527 - INFO - game.on_mouse_press:2179 - �u�x�s�ðh�X�v���s�Q���U�A�ǳƵ��� Pyglet ���ε{���C
+2025-12-23 16:07:16,528 - INFO - game.run_game:2707 - Pyglet ���ε{���D�`���w�����C
+2025-12-23 16:07:16,711 - INFO - main._start_game_logic:561 - Game logic thread completing.
+2025-12-23 16:07:16,727 - INFO - main._start_game_logic:565 - Launcher UI restoration scheduled/completed.
+2025-12-23 16:07:17,536 - INFO - main.on_quit:378 - GameLauncher: Quit button pressed.
+2025-12-23 16:07:17,536 - INFO - main.unload:299 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): Unloading frames and stopping animation.
+2025-12-23 16:07:17,536 - DEBUG - main.stop_animation:285 - AnimatedGIF(C:\Minecraft\gif\minecraft_background_animation.gif): stop_animation called (public).
+2025-12-23 16:07:17,543 - INFO - main.<module>:590 - Application mainloop finished.

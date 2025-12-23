@@ -2,13 +2,13 @@
   "player_id": "BlueYuTW",
   "mode": "survival",
   "position": [
-    2.75,
-    9.0,
-    0.16
+    9.26,
+    10.3,
+    3.17
   ],
   "rotation": [
-    326.4,
-    -54.95
+    333.0,
+    -15.5
   ],
   "hotbar": [
     null,
@@ -67,5 +67,5 @@
     null,
     null
   ],
-  "current_hotbar_index": 0
+  "current_hotbar_index": 3
 }
