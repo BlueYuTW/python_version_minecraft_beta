@@ -3,8 +3,8 @@ REM 設定腳本所在的目錄為當前工作目錄
 cd /D "%~dp0"
 
 REM 檢查 python.exe 是否存在於指定路徑
-IF NOT EXIST "C:/Python313/pythonw.exe" (
-    echo ERROR: python.exe not found at "C:/Python313/pythonw.exe"
+IF NOT EXIST "C:/Python313/python.exe" (
+    echo ERROR: python.exe not found at "C:\Python313\pythonw.exe"
     echo Please check your Python installation path.
     pause
     exit /b 1
